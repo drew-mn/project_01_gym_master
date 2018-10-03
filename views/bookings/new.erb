@@ -5,7 +5,7 @@
 
   <label for="member">Select Gym Member</label>
 
-  <select id="member" name="member_id">
+  <select style="margin-left: 6px; width: 150px;"id="member" name="member_id">
     <% @member.each do |member| %>
     <option value="<%= member.id %>"> <%= member.first_name %> <%= member.last_name %></option>
     <% end %>
@@ -13,7 +13,7 @@
 <br>
   <label for="gym-class">Select Gym Class</label>
 
-  <select id="gym-class" name="gym_class_id">
+  <select style="margin-left: 30px; width: 150px;" id="gym-class" name="gym_class_id">
     <% @gym_class.each do |gym_class| %>
     <option value="<%= gym_class.id %>"> <%= gym_class.class_name %> <%= gym_class.class_time %></option>
     <% end %>
@@ -22,3 +22,5 @@
   <input type="submit" id ='NewBooking-button' class='showbutton'value="Create New Booking">
 </form>
 </div>
+
+<h1 style="color:blue;">

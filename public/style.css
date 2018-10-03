@@ -112,6 +112,7 @@ h2
     text-align: left;
     margin-top: 15px;
     margin-left: 20px;
+    margin-bottom: 15px;
     font-family: "Futura-pt", sans-serif;
 }
 
@@ -254,6 +255,16 @@ input[type=text] {
 
 input[type=submit] {
     width: 100%;
+    background-color: #fc5120;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type=submit],#NewBooking-button {
+    width: 62%;
     background-color: #fc5120;
     color: white;
     padding: 14px 20px;
