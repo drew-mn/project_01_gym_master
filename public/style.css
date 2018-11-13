@@ -45,7 +45,6 @@ body
   color: #fc5120;
 }
 
-
 /* Styling for centered link in Nav Bar */
 .nav-center a {
   float: none;
@@ -155,7 +154,6 @@ table {
     border: 1px solid #ddd;
     position: absolute;
     margin-left: 20px;
-
 }
 
 
@@ -189,7 +187,6 @@ th {
 
 body
 {
-
 }
 
 a
@@ -221,13 +218,7 @@ a
     background-color: lightgrey;
 }
 
-/* Logo Styling */
-/* .logo img
-{
-    width: 200px;
-    height: auto;
-    margin: 20px
-} */
+
 
 .title_text img
 {
